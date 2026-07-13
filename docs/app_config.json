@@ -1,0 +1,71 @@
+{
+  "ads": {
+    "overrideTestMode": false,
+    "testMode": false,
+    "preferredBannerProvider": "unityads",
+    "preferredInterstitialProvider": "unityads",
+    "preferredRewardedProvider": "unityads",
+    "preferredAppOpenProvider": "admob",
+    "interstitialCooldownSeconds": 60,
+    "rewardedRetryDelaySeconds": 5,
+    "adLoadRetryDelaySeconds": 10,
+    "rewardedInterstitialSuppressionSeconds": 10,
+    "appOpenCooldownSeconds": 120,
+    "android": {
+      "providers": [
+        {
+          "providerKey": "admob",
+          "appId": "ca-app-pub-9427669866758945~6228449714",
+          "bannerUnitId": "ca-app-pub-9427669866758945/6521960716",
+          "interstitialUnitId": "ca-app-pub-9427669866758945/3346122717",
+          "rewardedUnitId": "ca-app-pub-9427669866758945/3895797370",
+          "appOpenUnitId": "ca-app-pub-9427669866758945/1717346273",
+          "extraJson": "{\"appOpenUnitId\":\"ca-app-pub-9427669866758945/1717346273\"}"
+        },
+        {
+          "providerKey": "unityads",
+          "appId": "3204439",
+          "bannerPlacement": "Android_Banner",
+          "interstitialPlacement": "Android_Ins",
+          "rewardedPlacement": "Android_Rewared"
+        },
+        {
+          "providerKey": "debug",
+          "appId": "debug-android",
+          "bannerUnitId": "debug-banner",
+          "interstitialUnitId": "debug-interstitial",
+          "rewardedUnitId": "debug-rewarded",
+          "appOpenUnitId": "debug-appopen"
+        }
+      ]
+    },
+    "ios": {
+      "providers": [
+        {
+          "providerKey": "admob",
+          "appId": "ca-app-pub-9427669866758945~6478529717",
+          "bannerUnitId": "ca-app-pub-9427669866758945/8987663332",
+          "interstitialUnitId": "ca-app-pub-9427669866758945/9431996111",
+          "rewardedUnitId": "ca-app-pub-9427669866758945/1908729315",
+          "appOpenUnitId": "ca-app-pub-9427669866758945/6487291372",
+          "extraJson": "{\"appOpenUnitId\":\"ca-app-pub-9427669866758945/6487291372\"}"
+        },
+        {
+          "providerKey": "unityads",
+          "appId": "3204438",
+          "bannerPlacement": "New_Banner_iOS",
+          "interstitialPlacement": "New_Interstitial_iOS",
+          "rewardedPlacement": "New_Rewarded_iOS"
+        },
+        {
+          "providerKey": "debug",
+          "appId": "debug-ios",
+          "bannerUnitId": "debug-banner",
+          "interstitialUnitId": "debug-interstitial",
+          "rewardedUnitId": "debug-rewarded",
+          "appOpenUnitId": "debug-appopen"
+        }
+      ]
+    }
+  }
+}
