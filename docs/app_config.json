@@ -1,71 +1,65 @@
-{
-  "ads": {
-    "overrideTestMode": false,
-    "testMode": false,
-    "preferredBannerProvider": "unityads",
-    "preferredInterstitialProvider": "unityads",
-    "preferredRewardedProvider": "unityads",
-    "preferredAppOpenProvider": "admob",
-    "interstitialCooldownSeconds": 60,
-    "rewardedRetryDelaySeconds": 5,
-    "adLoadRetryDelaySeconds": 10,
-    "rewardedInterstitialSuppressionSeconds": 10,
-    "appOpenCooldownSeconds": 120,
-    "android": {
-      "providers": [
-        {
-          "providerKey": "admob",
-          "appId": "ca-app-pub-9427669866758945~6228449714",
-          "bannerUnitId": "ca-app-pub-9427669866758945/6521960716",
-          "interstitialUnitId": "ca-app-pub-9427669866758945/3346122717",
-          "rewardedUnitId": "ca-app-pub-9427669866758945/3895797370",
-          "appOpenUnitId": "ca-app-pub-9427669866758945/1717346273",
-          "extraJson": "{\"appOpenUnitId\":\"ca-app-pub-9427669866758945/1717346273\"}"
-        },
-        {
-          "providerKey": "unityads",
-          "appId": "3204439",
-          "bannerPlacement": "Banner_Android_Bidding",
-          "interstitialPlacement": "Interstitial_Android_Bidding",
-          "rewardedPlacement": "Rewarded_Android_Bidding"
-        },
-        {
-          "providerKey": "debug",
-          "appId": "debug-android",
-          "bannerUnitId": "debug-banner",
-          "interstitialUnitId": "debug-interstitial",
-          "rewardedUnitId": "debug-rewarded",
-          "appOpenUnitId": "debug-appopen"
-        }
-      ]
-    },
-    "ios": {
-      "providers": [
-        {
-          "providerKey": "admob",
-          "appId": "ca-app-pub-9427669866758945~6478529717",
-          "bannerUnitId": "ca-app-pub-9427669866758945/8987663332",
-          "interstitialUnitId": "ca-app-pub-9427669866758945/9431996111",
-          "rewardedUnitId": "ca-app-pub-9427669866758945/1908729315",
-          "appOpenUnitId": "ca-app-pub-9427669866758945/6487291372",
-          "extraJson": "{\"appOpenUnitId\":\"ca-app-pub-9427669866758945/6487291372\"}"
-        },
-        {
-          "providerKey": "unityads",
-          "appId": "3204438",
-          "bannerPlacement": "Banner_iOS_Bidding",
-          "interstitialPlacement": "Interstitial_iOS_Bidding",
-          "rewardedPlacement": "Rewarded_iOS_Bidding"
-        },
-        {
-          "providerKey": "debug",
-          "appId": "debug-ios",
-          "bannerUnitId": "debug-banner",
-          "interstitialUnitId": "debug-interstitial",
-          "rewardedUnitId": "debug-rewarded",
-          "appOpenUnitId": "debug-appopen"
-        }
-      ]
-    }
-  }
-}
+{
+  "ads": {
+    "overrideTestMode": false,
+    "testMode": false,
+    "preferredBannerProvider": "levelplay",
+    "preferredInterstitialProvider": "levelplay",
+    "preferredRewardedProvider": "levelplay",
+    "preferredAppOpenProvider": "admob",
+    "interstitialCooldownSeconds": 60,
+    "rewardedRetryDelaySeconds": 5,
+    "adLoadRetryDelaySeconds": 10,
+    "rewardedInterstitialSuppressionSeconds": 10,
+    "appOpenCooldownSeconds": 120,
+    "android": {
+      "providers": [
+        {
+          "providerKey": "levelplay",
+          "appId": "273658a9d",
+          "bannerUnitId": "3ruws6ftrr19pa2n",
+          "interstitialUnitId": "fn31qfkc1hhu2ika",
+          "rewardedUnitId": "t0erou9h5xabmbzz"
+        },
+        {
+          "providerKey": "admob",
+          "appId": "ca-app-pub-9427669866758945~6228449714",
+          "appOpenUnitId": "ca-app-pub-9427669866758945/1717346273",
+          "extraJson": "{\"appOpenUnitId\":\"ca-app-pub-9427669866758945/1717346273\"}"
+        },
+        {
+          "providerKey": "debug",
+          "appId": "debug-android",
+          "bannerUnitId": "debug-banner",
+          "interstitialUnitId": "debug-interstitial",
+          "rewardedUnitId": "debug-rewarded",
+          "appOpenUnitId": "debug-appopen"
+        }
+      ]
+    },
+    "ios": {
+      "providers": [
+        {
+          "providerKey": "levelplay",
+          "appId": "27365178d",
+          "bannerUnitId": "8pxucvupmc7dwz35",
+          "interstitialUnitId": "id9cg9qwxpdfyqwe",
+          "rewardedUnitId": "9uiddc80ktjx5qxv"
+        },
+        {
+          "providerKey": "admob",
+          "appId": "ca-app-pub-9427669866758945~6478529717",
+          "appOpenUnitId": "ca-app-pub-9427669866758945/6487291372",
+          "extraJson": "{\"appOpenUnitId\":\"ca-app-pub-9427669866758945/6487291372\"}"
+        },
+        {
+          "providerKey": "debug",
+          "appId": "debug-ios",
+          "bannerUnitId": "debug-banner",
+          "interstitialUnitId": "debug-interstitial",
+          "rewardedUnitId": "debug-rewarded",
+          "appOpenUnitId": "debug-appopen"
+        }
+      ]
+    }
+  }
+}
