@@ -25,9 +25,9 @@
         {
           "providerKey": "unityads",
           "appId": "3204439",
-          "bannerPlacement": "Android_Banner",
-          "interstitialPlacement": "Android_Ins",
-          "rewardedPlacement": "Android_Rewared"
+          "bannerPlacement": "Banner_Android_Bidding",
+          "interstitialPlacement": "Interstitial_Android_Bidding",
+          "rewardedPlacement": "Rewarded_Android_Bidding"
         },
         {
           "providerKey": "debug",
@@ -53,9 +53,9 @@
         {
           "providerKey": "unityads",
           "appId": "3204438",
-          "bannerPlacement": "new_banner",
-          "interstitialPlacement": "New_Ios_Interstitial",
-          "rewardedPlacement": "Rewarded_iOS"
+          "bannerPlacement": "Banner_iOS_Bidding",
+          "interstitialPlacement": "Interstitial_iOS_Bidding",
+          "rewardedPlacement": "Rewarded_iOS_Bidding"
         },
         {
           "providerKey": "debug",
