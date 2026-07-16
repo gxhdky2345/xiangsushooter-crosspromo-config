@@ -53,9 +53,9 @@
         {
           "providerKey": "unityads",
           "appId": "3204438",
-          "bannerPlacement": "New_Banner_iOS",
-          "interstitialPlacement": "New_Interstitial_iOS",
-          "rewardedPlacement": "New_Rewarded_iOS"
+          "bannerPlacement": "new_banner",
+          "interstitialPlacement": "New_Ios_Interstitial",
+          "rewardedPlacement": "Rewarded_iOS"
         },
         {
           "providerKey": "debug",
